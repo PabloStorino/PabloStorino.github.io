@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/wallpaper.jpg");
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.whitetxt{
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px -1px 3px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: black 2px 2px 4px;
+    text-align: center;
+}
+
+/* Imagenes */
+
+@media only screen and (min-width: 1126px) {
+    /* Tabletas y Desktops */
+    
+    footer{
+        width: 100%;
+        height: 39px;
+        background-image: url("/img/footer.png");
+        color: white;
+        text-align: center;
+        margin-top: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        vertical-align: middle;
+    }
+
+    footer p{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .p2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+
+    footer .p2 a{
+        color: brown;
+        margin: 5px;
+    }
+
+    .iconos-izq{
+        position: absolute;
+        left: 25px;
+        z-index: -1;
+        top: 0px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.33) 7%, rgba(0,0,0,0.33) 93%, rgba(0,0,0,0) 100%);        min-height: 100vh;
+    }
+
+    .icono-sm{
+        max-width: 40px;
+    }
+
+    .notepad{
+        margin: 0px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("/img/notepad.png");
+        padding: 5px;
+        padding-top: 50px;
+        box-shadow: 0px 0px 3px black;
+    }
+
+    .iconos ul{
+        display: flex;
+    }
+
+    .iconos ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    .iconos ul li img{
+        max-width: 70px;
+    }
+    
+    .icono{
+        max-width: 70px;
+    }
+
+    .archivo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .archivo p {
+        margin: 0px;
+    }
+
+    .foto-cv{
+        position: absolute;
+        top: 50px;
+        right: 25px;
+        width: 400px;
+        z-index: -1;
+        box-shadow: 0px 0px 5px black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .foto-cv{
+        background-color: rgb(31, 31, 31);
+    }
+
+    .foto-cv img{
+        max-width: 100%;
+    }
+
+    .archivos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1125px) {
+    /* Tabletas y Desktops */
+
+    .iconos-izq{
+        position: absolute;
+        left: 25px;
+        z-index: -1;
+        top: 25px;
+    }
+
+        .icono-sm{
+        max-width: 40px;
+    }
+    
+    .notepad{
+        margin: 0px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("/img/notepad.png");
+        padding: 5px;
+        padding-top: 50px;
+        box-shadow: 0px 0px 3px black;
+    }
+
+    .iconos ul{
+        display: flex;
+    }
+
+    .iconos ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    .iconos ul li img{
+        max-width: 70px;
+    }
+    
+    .icono{
+        max-width: 70px;
+    }
+
+    .archivo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .archivo p {
+        margin: 0px;
+    }
+
+    .foto-cv{
+        position: absolute;
+        top: 50px;
+        right: 5px;
+        width: 250px;
+        z-index: -1;
+        box-shadow: 0px 0px 5px black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .foto-cv{
+        background-color: rgb(31, 31, 31);
+    }
+
+    .foto-cv img{
+        max-width: 100%;
+    }
+
+    .archivos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Celulares */
+
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* Celulares modo horizontal */
+
+
+}
