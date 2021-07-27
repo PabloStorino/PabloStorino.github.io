@@ -93,22 +93,44 @@ a{
         padding: 5px;
         padding-top: 50px;
         box-shadow: 0px 0px 3px black;
+        resize: both;
+        overflow: auto;
+    }
+
+    .iconos{
+        display: flex;
+        align-items: center;
     }
 
     .iconos ul{
         display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 0px;
     }
 
     .iconos ul li{
+        padding: 15px;
+    }
+
+    .iconos ul li:hover{
+        background-color: rgba(97, 189, 189, 0.404);
+        outline: 1px solid rgba(255, 255, 255, 0.397);
+    }
+
+    .iconos ul li a div{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 30px;
     }
 
     .iconos ul li img{
         max-width: 70px;
+    }
+
+    .iconos p{
+        margin: 0px;
     }
     
     .icono{
@@ -131,18 +153,14 @@ a{
         position: absolute;
         top: 50px;
         right: 25px;
-        width: 400px;
         z-index: -1;
         box-shadow: 0px 0px 5px black;
         padding: 0px;
         margin: 0px;
-    }
-
-    .foto-cv{
         background-color: rgb(31, 31, 31);
     }
 
-    .foto-cv img{
+    .img-cv{
         max-width: 100%;
     }
 
@@ -150,7 +168,6 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
     }
 
 }
@@ -180,11 +197,11 @@ a{
         box-shadow: 0px 0px 3px black;
     }
 
-    .iconos ul{
+    .iconos-wrapper ul{
         display: flex;
     }
 
-    .iconos ul li{
+    .iconos-wrapper ul li{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -192,24 +209,12 @@ a{
         margin-right: 30px;
     }
 
-    .iconos ul li img{
+    .iconos-wrapper ul li img{
         max-width: 70px;
     }
     
     .icono{
         max-width: 70px;
-    }
-
-    .archivo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
-    }
-
-    .archivo p {
-        margin: 0px;
     }
 
     .foto-cv{
@@ -229,13 +234,6 @@ a{
 
     .foto-cv img{
         max-width: 100%;
-    }
-
-    .archivos{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
     }
 
 }
