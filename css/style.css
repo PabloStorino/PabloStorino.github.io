@@ -97,8 +97,7 @@ a{
         overflow: auto;
     }
 
-    .iconos{
-        /**/
+    .iconos{        
         display: flex;
         align-items: center;
     }
